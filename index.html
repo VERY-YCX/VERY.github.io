@@ -71,6 +71,96 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-绝对还是相对大小" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2021/03/18/%E7%BB%9D%E5%AF%B9%E8%BF%98%E6%98%AF%E7%9B%B8%E5%AF%B9%E5%A4%A7%E5%B0%8F/" class="article-date">
+  <time class="dt-published" datetime="2021-03-18T11:29:53.624Z" itemprop="datePublished">2021-03-18</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <hr>
+<p>2021/3/18<br>title：简单的布局</p>
+<hr>
+<p>//编写网页首先要学会如何对页面进行布局</p>
+<p>//div标签 （divider）div实际上就是一个独立占一行，从左到右横跨内容的盒子<br>多个div会垂直排列,基本每个网页的小区快都用div表示</p>
+<p>//语义化的标签 方便阅读理解也可以帮助搜索引擎识别代码<br>常用的：header nav（代表导航栏，导航栏中的每一项用ul+li） section footor</p>
+<p>//理解结构化布局的含义</p>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+    &lt;title&gt;my page!&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;Let&#39;s build a layout!&lt;/h1&gt;
+        &lt;div&gt;a&lt;/div&gt; //div*4可以快捷地打出
+        &lt;div&gt;b&lt;/div&gt;
+        &lt;div&gt;c&lt;/div&gt;
+        &lt;div&gt;d&lt;/div&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<p>//主要学会在不同元素或标签之间增加间距<br>在css中有两种方法来增加间距 margin and padding</p>
+<p>//margin:20px  表示在上下左右都增加了20px的间距<br>//如果是两个值那么第一个代表上下边，第二个值代表左右边<br>//如果是四个值那么则上右下左顺时针方向</p>
+<p>//在css中有多个单位如20%（占浏览器窗口比例）， 20px</p>
+<pre><code> &lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;my page!&lt;/title&gt;
+        &lt;style&gt;
+            body&#123;
+                background-color: grey;
+                color :white;
+                font-family: Arial, Helvetica, sans-serif; 
+                margin: 0;
+                padding: 0;
+            &#125;
+
+            //默认情况下&lt;body&gt;自带内外边距，不同浏览器的默认值不同
+
+            header&#123;
+                background: yellow;;
+                margin:20px;    
+            &#125;                   
+                                
+            section&#123;
+                background: violet;
+                padding:20px;
+            &#125;
+            footer&#123;
+                background: turquoise;
+                pading:10px,20px;
+            &#125;
+        &lt;/style&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;header&gt; header&lt;/header&gt;
+        &lt;section&gt; triple-section&lt;/section&gt;
+        &lt;section&gt;lower-section&lt;/section&gt;
+        &lt;footer&gt;footer&lt;/footer&gt;    
+    &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2021/03/18/%E7%BB%9D%E5%AF%B9%E8%BF%98%E6%98%AF%E7%9B%B8%E5%AF%B9%E5%A4%A7%E5%B0%8F/" data-id="ckmeso6mq0000gotp6ex79sme" data-title="" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-第一次为页面开美颜之CSS" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2021/03/18/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%B8%BA%E9%A1%B5%E9%9D%A2%E5%BC%80%E7%BE%8E%E9%A2%9C%E4%B9%8BCSS/" class="article-date">
@@ -375,6 +465,10 @@ b: bold粗体（文本）；
       <ul>
         
           <li>
+            <a href="/2021/03/18/%E7%BB%9D%E5%AF%B9%E8%BF%98%E6%98%AF%E7%9B%B8%E5%AF%B9%E5%A4%A7%E5%B0%8F/">(no title)</a>
+          </li>
+        
+          <li>
             <a href="/2021/03/18/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%B8%BA%E9%A1%B5%E9%9D%A2%E5%BC%80%E7%BE%8E%E9%A2%9C%E4%B9%8BCSS/">(no title)</a>
           </li>
         
@@ -388,10 +482,6 @@ b: bold粗体（文本）；
         
           <li>
             <a href="/2021/03/07/hello/">hello</a>
-          </li>
-        
-          <li>
-            <a href="/2021/03/07/hello-world/">Hello World</a>
           </li>
         
       </ul>
