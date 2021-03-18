@@ -71,6 +71,54 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-多页面间的跳转" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2021/03/18/%E5%A4%9A%E9%A1%B5%E9%9D%A2%E9%97%B4%E7%9A%84%E8%B7%B3%E8%BD%AC/" class="article-date">
+  <time class="dt-published" datetime="2021-03-18T13:00:06.598Z" itemprop="datePublished">2021-03-18</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <hr>
+<p>data：2021/3/18<br>title：实现导航栏中多页面间的跳转</p>
+<hr>
+<h1 id="1st：创建不同的html文件支持跳转"><a href="#1st：创建不同的html文件支持跳转" class="headerlink" title="1st：创建不同的html文件支持跳转"></a>1st：创建不同的html文件支持跳转</h1><pre><code> &lt;header&gt; 
+            &lt;nav&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;a href=&quot;index.html&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;locations.html&quot;&gt;Locations&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;contact.html&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/nav&gt;
+
+            &lt;h1&gt;Home&lt;/h1&gt;
+    &lt;/header&gt;
+</code></pre>
+<h1 id="2nd-建立一个style-css"><a href="#2nd-建立一个style-css" class="headerlink" title="2nd:建立一个style.css"></a>2nd:建立一个style.css</h1><pre><code>&lt;head&gt;
+        &lt;title&gt;my page!&lt;/title&gt;
+        &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;
+&lt;/head&gt;
+</code></pre>
+<h1 id="精细操控css"><a href="#精细操控css" class="headerlink" title="精细操控css"></a>精细操控css</h1>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2021/03/18/%E5%A4%9A%E9%A1%B5%E9%9D%A2%E9%97%B4%E7%9A%84%E8%B7%B3%E8%BD%AC/" data-id="ckmevt01l0000rwtpghng26e8" data-title="" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-绝对还是相对大小" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2021/03/18/%E7%BB%9D%E5%AF%B9%E8%BF%98%E6%98%AF%E7%9B%B8%E5%AF%B9%E5%A4%A7%E5%B0%8F/" class="article-date">
@@ -465,6 +513,10 @@ b: bold粗体（文本）；
       <ul>
         
           <li>
+            <a href="/2021/03/18/%E5%A4%9A%E9%A1%B5%E9%9D%A2%E9%97%B4%E7%9A%84%E8%B7%B3%E8%BD%AC/">(no title)</a>
+          </li>
+        
+          <li>
             <a href="/2021/03/18/%E7%BB%9D%E5%AF%B9%E8%BF%98%E6%98%AF%E7%9B%B8%E5%AF%B9%E5%A4%A7%E5%B0%8F/">(no title)</a>
           </li>
         
@@ -478,10 +530,6 @@ b: bold粗体（文本）；
         
           <li>
             <a href="/2021/03/07/UESTC/">UESTC-yuchengxing</a>
-          </li>
-        
-          <li>
-            <a href="/2021/03/07/hello/">hello</a>
           </li>
         
       </ul>
