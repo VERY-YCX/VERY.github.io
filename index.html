@@ -43,7 +43,7 @@
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
-			<img src="" class="js-avatar">
+			<img src="/1.jpg" class="js-avatar">
 		</a>
 		<hgroup>
 		  <h1 class="header-author"><a href="/"></a></h1>
@@ -101,7 +101,7 @@
 	<div class="intrude-less">
 		<header id="header" class="inner">
 			<div class="profilepic">
-				<img src="" class="js-avatar">
+				<img src="/1.jpg" class="js-avatar">
 			</div>
 			<hgroup>
 			  <h1 class="header-author js-header-author"></h1>
@@ -151,238 +151,6 @@
           </div>
           <div id="js-content" class="content-ll">
             
-  
-    <article id="post-学习笔记" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2021/04/08/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a>
-    </h1>
-  
-
-        
-        <a href="/2021/04/08/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="archive-article-date">
-  	<time datetime="2021-04-08T11:03:58.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-04-08</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>标题标签   head<br>段落标签  paragraphy 会有较大的空隙<br>换行标签 &lt;br&gt; break 单标签 没有空隙</p>
-<p>文本格式化标签：<br>加粗 <strong> </strong> 或<b> </b><br>倾斜：<em> </em>        或<i> </i><br>删除线：<del></del>     或<s></s><br>下划线：<ins></ins>     或<u></u></p>
-<p>布局标签：</p>
-<div> </div> division 表示分割，分区 ,独占一行
-
-<p><span></span>一行可以有多个</p>
-<p>图像标签：（单标签）属性之间不分先后顺序 属性之间用空格分开</p>
-<img src="图像路径"/>
-替换文本 当图像不存在或者显示不出来时用文字替换
-<img src="图像路径" alt="这是一张图片"/>
-提示文本 当鼠标放到图像上，提示的文字：
-<img src="图像路径" alt="这是一张图片" title="我是一张图片"/>
-
-<p>修改宽度，高度：一般修改一个另一个等比例缩放<br>&lt;img src=”图像路径” alt=”这是一张图片” title=”我是一张图片” width=”500”height=“100”/&gt;</p>
-<p>给图像设置一个边框：</p>
-<p>&lt;img src=”图像路径” alt=”这是一张图片” title=”我是一张图片” width=”500” border=”15”&gt;</p>
-<p>路径：<br>相对路径：<br>同一级路径 直接写图像名<br>下一级路径 /<br>上一级路径 ../</p>
-<p>绝对路径：很少使用<br>1.本机电脑上<br>2.网络上的绝对路径</p>
-<p>超链接标签：anchor<br><a href="跳转目标" target="目标窗口的弹出方式"> <a/><br>target默认为_self:当前窗口打开页面<br>实际_blank最好：新窗口打开页面<br>链接的分类：<br>1.外部链接：<br>2.内部链接：“index.html”内部链接不用加http<br>3.空链接：<a href="#">地址<a/><br>4.下载链接：如果href里面地址是一个文件或者压缩包，会下载这个文件<br>5.网页元素链接:图片 ，表格，文字等等都可以<br><a target="_blank" rel="noopener" href="http://www.baidu.com">&lt;img src=”图片路径“&gt;</a><br>6.锚点链接：可以快速定位到页面中的某个位置<br>设置属性为”#名字”的形式<br>例：<br><a href="#介绍"></a></p>
-<h1 id="介绍"></h1>
-
-<p>注释标签：</p>
-<!--注释标签-->
-<p>快捷键：ctrl加/</p>
-<p>特殊字符：<br>一个空格：&amp;nbsp<br>&lt;:       &lt;</p>
-<blockquote>
-<p>:       &gt;<br>&amp;:       &amp;<br>￥:      &yen;<br>等…</p>
-</blockquote>
-<p>表格标签：<br>表格单元格:</p>
-<table> -<tr>- <td>
-表头单元格：    <td>-<th>
-全称<table head> 表头单元格的文字会加粗居中显示<th>
-表格的相关属性：
-规定表格的对齐方式：
-align：left right center
-border： 默认为“”表示没有边框 规定表格单元格是否有边框
-cellpadding:规定单元边框与内容之间的空白，默认为一像素
-cellspacing:规定规定单元格之间的空白，默认两像素
-一般将这两个属性改为0
-
-<p>表格的头部标签和表格的主体标签</p>
-<thead> <tbody>放在table标签之间
-
-<p>合并单元格：<br>跨行合并：rowspan  上侧单元格<br>跨列合并：colsapn  左侧单元格    </p>
-<p>列表标签：<br>1.无序列表（重点）</p>
-<ul>标签中的儿子只能放<li>
-<li>里面什么都可以放
-
-<p>2.有序列表(了解)<br>如果各标签之间有顺序</p>
-<ol>中只能放<li>
-
-<p>3.自定义列表 (重点） </p>
-<dl>
-<dt>定义项目名
-<dd>属于兄弟间的包含关系
-<dl>中只能有这两个标签
-
-<p>表单标签：<br>收集用户信息(常用于注册页面）<br>1.表单域：</p>
-<form><form/>双标签
-2.表单控件（表单元素）：
-3.提示信息:
-a.input输入表单元素：
-单标签：<input type="属性值" />
-text:文本框
-password：密码框
-radio:小圆点选择框 单选按钮 多选一
-必须起一个相同的name属性才能够实现单选
-也方便告诉后台存储数据的名字
-checkbox：复选框
-
-<p>value:会出现再文本对话框上<br>在单选框和复选框中告诉后台人员相关属性<br>name是表单元素的名字，要求单选按钮和复选按钮有相同的name值</p>
-<p>单选按钮和复选框可以设置checked属性，当页面打开时可以默认选中这个按钮<br>不过单选只能选择一个 复选可以选择多个</p>
-<p>maxlength:规定输入字符的最大长度（这种方法用的少，了解）<br>提交按钮：submit<br><input type="submit" value="点我注册"><br>点击了提交按钮，可以把表单域 from里面的元素提交给后台服务器<br>重置按钮：清除表单所有内容初始默认状态<br>reset</p>
-<p>普通按钮<br>不提交数据 常与js搭配使用发送手机验证码<br><input type="button" value="发送验证码"></p>
-<p>文件域按钮，用于上传文件<br><input type="file"></p>
-<p>label标签：<br>与表单元素搭配使用<br>使用场景<br>用于绑定一个表单元素，当点击标签内的文本时，浏览器会自动将光标转到或选择对应的表单元素上，用于增加用户体验（提高点击面积等）</p>
-<p> <label for="text">用户名：</label><input type="text" id="text"><br><br> <label for="nan"  >性别： 男<input type="radio" id="nan" name="sex"> </label><br> <label>女<input id="女" type="radio" name="sex"></label></p>
-<p>表单元素：<br>1.input输入表单元素<br>2.select下拉表单元素（多选一并且节约用户空间）<br>语法规则：<br>   <select name="" id="">籍贯<br>   <option value="">四川</option><br>   <option value="">北京</option><br>   </select><br>select中至少包含一对<option><br>添加默认选择元素<br> <option value="" selected="selected">北京</option></p>
-<p>3.textarea文本域表单元素<br>（了解）用css<br>用于定义多行文本标签</p>
-<form action="">
- 记录你的心情：
- <textarea name="" id="" cols="30" rows="10">
-简单写下你的感受
- </textarea>
- </form>
-cols每行中的字符属
-rows显示的行数
-超过范围也能输入
-
-<p>完成征婚网页综合设计</p>
-<h3 id="css综合学习"><a href="#css综合学习" class="headerlink" title="css综合学习"></a>css综合学习</h3><p>css使用场景：网页美容师<br>Cascading Style Sheets:层叠样式表<br>css也是一种标记语言</p>
-<p>选择器{<br>属性:+属性值;<br>}</p>
-<p>color<br>font-size</p>
-<p>css的代码风格：<br>一：<br>1.紧凑型<br>2.展开格式**<br>二：<br>小写规范<br>三：<br>空格规范</p>
-<p>（三十岁前选对人，三十岁后做对事）</p>
-<p>选择器：<br>一：<br>基础选择器<br>1.标签选择器 即直接用html的标签名<br>优：能快速为页面中同类型标签设置样式<br>劣：不能精确</p>
-<p>2.类选择器 （最常用）<br>class=”自定义名”不过不能用标签选择器的名字<br>可以差异化地选择不同的标签，单独选择一个或者某几个标签<br>结构需要用class属性来调用class类<br>口诀：样式点定义 ，结构类（class）调用<br>一个或多个，开发最常用<br>附&lt;类命名规范&gt;</p>
-<p>多类名：class=”name1 name2 …”<br>即多个选择器可以处理一个标签，适用于重复代码的删减（节省css代码，且便于统一修改），把一些标签元素相同的样式放到一个类里面</p>
-<p>3.id选择器（基本类似于id选择器）<br>#id名（自定义名）{<br>    }<br>口诀：样式#定义，结构id调用，只能调用一次，别人勿使用</p>
-<p>类选择器与id选择器<br>类似于名字与身份证号码的区别</p>
-<p>4.通配符选择器</p>
-<p>*{<br>}（把所有的标签统一修改样式）</p>
-<p>二：<br>复合选择器</p>
-<p>**css字体属性:(css fonts(字体)系列)</p>
-<p>1.font-family:定义文本的字体类型<br>宋体<br>微软雅黑”Microsoft Yahei”<br>各种字体间必须用英文状态的逗号隔开<br>空格隔开的单词组成的字体，加引号</p>
-<p>2.font-size:定义文本字体大小<br>注：<br>首先给body标签设置大小<br>标题标签需单独指定文字大小</p>
-<p>3.font-weight：字体粗细<br>norml=400；（不加单位）<br>bold<br>*font-weight：700；等价于bold加粗的效果<br>让粗体的标题变细：<br>用font-weight=normal或者400</p>
-<p>4.font-style：字体样式<br>italic：倾斜；<br>让倾斜的字体不倾斜：<br>font-style:normal;</p>
-<p>三生三世十里桃花，一心一意百行代码</p>
-<p>字体复合属性:<br>用font属性时必须按照<br>font-style font-weight font-size/line-height font-family 顺序书写 不能更换顺序<br>但是必须保留font-size 和font-family 属性<br>其余属性可以忽略（取默认值）</p>
-<p>css文本属性:<br>1.文本颜色:<br>预定义颜色值  或<br>**十六进制（#开头） 或<br>rgb代码（red green blue）</p>
-<p>2.对齐文本:<br>text-align:center,right,left;<br>用于设置元素内文本内容水平对齐方式</p>
-<p>3.装饰文本：<br>text-decoration：<br>*none（默认）修改链接默认的下划线<br>underline 下划线<br>line-through 删除线<br>overline 上划线</p>
-<p>4.文本缩进:<br>text-indent:<br>属性值单位:<br>  px（精确单位）<br>**em (相对单位)<br>test-indent：2em；</p>
-<!---缩进当前元素2个文字大小的距离---!>
-
-5.行间距:
-行间距=上间距 +文本高度 +下间距
-上间距=下间距
-text-height:..px;
-
-
-css的引入方式分为三类：
-1.内部样式表：
-通常放在 body 上方
-
-2.行内样式表（内联样式表）
-在元素标签内部的style属性中设定css样式 适用于修改简单样式
-
-<p style="color:red">行内样式表</p>
-
-3.**外部样式表
-建css文件->
-<link rel="stylesheet" href="css文件路径">
-
-完成新闻页面综合设计
-
-调试工具的基本使用：
-ctrl+滑轮
-ctrl+0：恢复浏览器
-
-Emmet语法：
-
-1.emmet语法快速生成html标签
-tab键 ，*，
-父子级关系：ul>li, div>pan等
-兄弟关系的标签用+ 如div+p
-生成带有类名可直接写.demo
-或者id名的 #name
-如果生成的div带有顺序可用自增符号$
-如果想在生成的标签内部写内容可以用{}表示
-
-2.快速生成css样式
-
-3.格式化代码
-shift+alt+f。。。
-
-css的复合选择器：
-两个或者多个基础选择器组合
-
-1.后代选择器
-元素一 元素二{
-}
-最终改动的是元素二
-元素二可以是儿子 孙子等
-
-2.**子选择器
-元素一>元素二{
-}
-元素二必须是亲儿子
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2021/04/08/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
   
     <article id="post-jquery" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
@@ -1149,6 +917,68 @@ b: bold粗体（文本）；
 
 
   
+    <article id="post-hello" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2021/03/07/hello/">hello</a>
+    </h1>
+  
+
+        
+        <a href="/2021/03/07/hello/" class="archive-article-date">
+  	<time datetime="2021-03-07T04:35:51.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-03-07</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2021/03/07/hello/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
   
     <nav id="page-nav">
       <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">Next &amp;raquo;</a>
@@ -1325,7 +1155,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
     
     	<section class="tools-section tools-section-me" q-show="aboutme">
   	  	
-  	  		<div class="aboutme-wrap" id="js-aboutme">很惭愧&lt;br&gt;&lt;br&gt;只做了一点微小的工作&lt;br&gt;谢谢大家</div>
+  	  		<div class="aboutme-wrap" id="js-aboutme">我是一名在校大学生 专业是软件工程</div>
   	  	
     	</section>
     
